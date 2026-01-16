@@ -50,6 +50,9 @@ function updateCode(item: OTP): OTPCode {
         const searchInd = item.otpURL.indexOf("?");
         search = searchInd >= 0 ? item.otpURL.substring(searchInd) : "";
     } catch (err) {
+        try {
+            otp = new TOTP({ secret: item.otpURL });
+        } catch (e) {}
         errorMsg = `Error: ${err.message}`;
     }
     const id = `${item.sourceID}:${item.entryID}:${item.entryProperty}`;
