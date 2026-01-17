@@ -33,9 +33,9 @@ import com.buttercup.securestorage.cipherstorage.CipherStorageKeystoreAESCBC;
 
 public class AutoFillHelpers {
     private static final String TAG = "AutoFillHelpers";
-    private static final String autoFillKey = "pw.buttercup.mobile.autofillstore";
-    private static final String domainMapKey = "pw.buttercup.mobile.domainmapstore";
-    private static final String service = "pw.buttercup.mobile.autofillstore";
+    private static final String autoFillKey = "pw.buttercup.shivy.autofillstore";
+    private static final String domainMapKey = "pw.buttercup.shivy.domainmapstore";
+    private static final String service = "pw.buttercup.shivy.autofillstore";
 
     private PrefsStorage prefsStorage;
     private CipherStorage cipherStorage;

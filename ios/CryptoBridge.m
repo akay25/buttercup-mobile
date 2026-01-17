@@ -61,7 +61,7 @@ RCT_REMAP_METHOD(decryptText,
     NSString *result = [BCCrypto decryptText:encryptedText withKey:key andIV:ivHex andSalt:saltHex andHMACKey:hmacHexKey andHMAC:hmacHex];
     if ([result rangeOfString:@"Error="].location == 0) {
         NSString *errorString = [result substringFromIndex:6];
-        NSError *error = [NSError errorWithDomain:@"pw.buttercup.mobile" code:1 userInfo:@{
+        NSError *error = [NSError errorWithDomain:@"pw.buttercup.shivy" code:1 userInfo:@{
           @"error": errorString
         }];
         reject(@"error", [[NSString alloc] initWithFormat:@"Decryption failed: %@", errorString], error);

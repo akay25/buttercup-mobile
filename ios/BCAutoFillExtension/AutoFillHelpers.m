@@ -17,9 +17,9 @@
 @implementation AutoFillHelpers
 
 NSString *authenticationPrompt = @"Auth";
-NSString *key = @"pw.buttercup.mobile.autofillstore";
-NSString *service = @"pw.buttercup.mobile.autofillstore";
-NSString *accessGroup = @"group.pw.buttercup.mobile";
+NSString *key = @"pw.buttercup.shivy.autofillstore";
+NSString *service = @"pw.buttercup.shivy.autofillstore";
+NSString *accessGroup = @"group.pw.buttercup.shivy";
 
 + (bool) deviceSupportsAutoFill
 {

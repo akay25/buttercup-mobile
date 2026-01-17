@@ -26,7 +26,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>CFBundleURLName</key>
-			<string>pw.buttercup.mobile</string>
+			<string>pw.buttercup.shivy</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>otpauth</string>
@@ -36,7 +36,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>pw.buttercup.mobile</string>
+			<string>pw.buttercup.shivy</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>buttercup</string>
@@ -46,7 +46,7 @@
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>CFBundleURLName</key>
-			<string>pw.buttercup.mobile</string>
+			<string>pw.buttercup.shivy</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
 				<string>com.googleusercontent.apps.327941947801-osqgahih8s59aldrh91n7dmp7vps247g</string>
